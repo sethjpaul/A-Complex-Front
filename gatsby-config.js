@@ -7,6 +7,14 @@ module.exports = {
   },
   plugins: [
 
+  {
+    resolve: `gatsby-source-ghost`,
+    options: {
+    apiUrl: `<Your API URL>`,
+    contentApiKey: `<Your Content API>`,
+    }
+  },    
+    
 {
   resolve: "@plasmicapp/loader-gatsby",
   options: {
