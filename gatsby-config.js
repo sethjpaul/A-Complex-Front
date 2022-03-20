@@ -10,8 +10,8 @@ module.exports = {
   {
     resolve: `gatsby-source-ghost`,
     options: {
-    apiUrl: `<Your API URL>`,
-    contentApiKey: `<Your Content API>`,
+    apiUrl: `https://d2bmp7jhi43vv5.cloudfront.net`,
+    contentApiKey: `6a79365c7aea74219b75e66b52`,
     }
   },    
     
