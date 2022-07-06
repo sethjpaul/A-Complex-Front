@@ -11,10 +11,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo
-        title={post.title}
-        description={post.excerpt || post.excerpt}
-      />
+
       <article
         className="blog-post"
         itemScope
